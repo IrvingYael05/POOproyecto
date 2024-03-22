@@ -1,0 +1,8 @@
+public abstract class Cuenta {
+    protected String tipo_cuenta;
+    protected String propietario;
+    protected String saldo;
+    protected String numero_cuenta;
+
+    public abstract void revisarSaldo();
+}
